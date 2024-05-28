@@ -11,5 +11,5 @@ products from Adafruit!
 
 ## About this Driver
 
-Written by Kevin Townsend for Adafruit Industries.  
+Originally written by Kevin Townsend for Adafruit Industries. Modified by Ibrahim Al-Akash to meet Starling Medical BPH apparatus requirements.
 MIT license, all text above must be included in any redistribution
