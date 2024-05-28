@@ -1,0 +1,12 @@
+My Notion Page for Starling Medical -> https://fantastic-alloy-51b.notion.site/Starling-Medical-1ff16ca2898e4d61ae8c56f745f8b600
+
+Exhaust Velocity Calculation of Dynamic Water Test -> https://www.engineeringtoolbox.com/flow-liquid-water-tank-d_1753.html
+Magnetic Field Shielding -> https://learnemc.com/practical-em-shielding
+Elastomer Compression Calculation -> https://psiurethanes.com/calculating-compression-deflection/
+Exponential Moving Average -> https://blog.mbedded.ninja/programming/signal-processing/digital-filters/exponential-moving-average-ema-filter/
+Fastener Design -> https://www.essentracomponents.com/en-gb/news/solutions/fastening-components/fasteners-the-design-engineer-s-application-guide
+Magnetometer Calibration Blog Posts -> https://hackaday.io/project/11865-3d-magnetic-field-scanner/log/40913-yet-another-calibration-log
+Canceling the Earth's Magnetic Field -> https://en.wikipedia.org/wiki/Helmholtz_coil
+Helmholtz Coil In-Depth -> https://e-magnetica.pl/doku.php/helmholtz_coil#anti-helmholtz_coil
+Learning C++ for Embedded Programming -> https://www.learncpp.com/
+Reducing Noise in Load Cell -> https://tacunasystems.com/knowledge-base/reducing-noise-in-very-sensitive-load-cell-applications/
