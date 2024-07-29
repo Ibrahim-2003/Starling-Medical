@@ -1,7 +1,7 @@
 // Ibrahim Al-Akash
 // Starling Medical
-// QA Testing Apparatus V1
-// 2-16-24
+// QA Testing Apparatus V3
+// 5-26-24
 
 // Include the RTC Library:
 #include <DS3231.h>
