@@ -1,0 +1,47 @@
+MainActivity.kt
+---------------------------------
+
+// onCreate Functions
+    BluetoothManagerStateMachine.initialize(applicationContext())
+    BluetoothManager2.initialize(applicationContext())
+    requestPermissions()
+
+
+AppSimulationScreen.kt
+---------------------------------
+Button(
+        modifier = Modifier.fillMaxWidth().padding(start = buttonPadding, end = buttonPadding),
+        onClick = {
+//                navController.previousBackStackEntry?.savedStateHandle?.set("msg", "test data")
+//                navController.popBackStack()
+        BluetoothManagerStateMachine.startScanning()
+        logOutput = "Starting Scan\n" + logOutput
+    }) {
+        Text(text = "Start")
+    }
+
+Gradle
+---------------------------------
+implementation libs.blessed.kotlin
+implementation libs.gson
+
+
+BluetoothExplorer.kt
+---------------------------------
+// Press button to turn on scanning in BluetoothManager2
+// If the peripheral list in BluetoothManager2 is not empty, display the list of devices using the DeviceNameList which is input to the DeviceNameListHelper
+    // Each device gets a DeviceCard using the device name from the DeviceNameListHelper
+    // Clicking the DeviceCard stops the scanning in BluetoothManager2, connects to the device using the connectToPeripheral from BluetoothManager2, and navigates to DeviceDetailScreen:
+       // BluetoothManager2.stopScanning()
+       // val peripheral = BluetoothManager2.peripheralList[index]
+       // BluetoothManager2.connectToPeripheral(peripheral)
+    // DeviceDetailScreen:
+        // Device -> BluetoothManager2.urinDxDeviceCharacteristic
+        // Configuration -> BluetoothManager2.urinDxConfigurationCharacteristic
+        // Patient -> BluetoothManager2.urinDxPatientCharacteristic
+        // Sensors Record {CharacteristicReadInteractionCard} -> BluetoothManager2.urinDxSensorsRecordCharacteristic
+        // Network Record {CharacteristicReadInteractionCard} -> BluetoothManager2.urinDxNetworkRecordCharacteristic
+        // Battery Record {CharacteristicReadInteractionCard} -> BluetoothManager2.urinDxBatteryRecordCharacteristic
+        // Debug {CharacteristicReadInteractionCard} -> BluetoothManager2.urinDxDebugCharacteristic
+
+

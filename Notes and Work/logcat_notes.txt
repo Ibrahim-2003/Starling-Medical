@@ -1,0 +1,43 @@
+STARTUP SEQUENCE
+-----------------------------------------------------------------------------
+BluetoothManagerStateMachine,initializing BluetoothHandler
+BluetoothManager2,initializing BluetoothHandler
+ProfileInstaller,Installing profile for com.starling.bluetoothexplorer
+BluetoothAdapter,isLeEnabled(): ON
+
+PRESS START
+-----------------------------------------------------------------------------
+BluetoothLeScanner,onScannerRegistered() - status=0 scannerId=6 mScannerId=0
+BluetoothManagerStateMachine,Found peripheral 'UrinDx' with RSSI -57
+BluetoothManagerStateMachine,Connecting to peripheral UrinDx
+BluetoothAdapter,isLeEnabled(): ON
+BluetoothGatt,connect() - device: CC:11:E1:27:24:1D, auto: false
+BluetoothGatt,registerApp()
+BluetoothGatt,registerApp() - UUID=1f0445b1-f4ec-49c2-9a09-b407b8ef458b
+BluetoothGatt,onClientRegistered() - status=0 clientIf=6
+BluetoothGatt,onClientConnectionState() - status=0 clientIf=6 device=CC:11:E1:27:24:1D
+BluetoothGatt,discoverServices() - device: CC:11:E1:27:24:1D
+BluetoothGatt,onConnectionUpdated() - Device=CC:11:E1:27:24:1D interval=6 latency=0 timeout=500 status=0
+BluetoothGatt,onPhyUpdate() - status=0 address=CC:11:E1:27:24:1D txPhy=2 rxPhy=2
+BluetoothGatt,onSearchComplete() = Device=CC:11:E1:27:24:1D Status=0
+BluetoothManagerStateMachine,Connected to 'UrinDx'
+BluetoothManagerStateMachine,Discovered service 00001801-0000-1000-8000-00805f9b34fb
+BluetoothManagerStateMachine,Discovered service 00001800-0000-1000-8000-00805f9b34fb
+BluetoothManagerStateMachine,Discovered service 0000180f-0000-1000-8000-00805f9b34fb
+BluetoothManagerStateMachine,Discovered service 14700001-0eed-456e-a568-7e4e17683148
+BluetoothManager,Found characteristic 14700002-0eed-456e-a568-7e4e17683148
+BluetoothManagerStateMachine,Discovered service 8d53dc1d-1db7-4cd3-868b-8a527460aa84
+BluetoothGatt,requestConnectionPriority() - params: 1
+BluetoothGatt,onConnectionUpdated() - Device=CC:11:E1:27:24:1D interval=39 latency=0 timeout=500 status=0
+BluetoothGatt,setCharacteristicNotification() - uuid: 14700005-0eed-456e-a568-7e4e17683148 enable: true
+BluetoothManagerStateMachine,SUCCESS: Notify set to true for 14700005-0eed-456e-a568-7e4e17683148
+BluetoothManagerStateMachine,SUCCESS: Notify set to true for Patient Sample Characteristic
+BluetoothGatt,onConnectionUpdated() - Device=CC:11:E1:27:24:1D interval=12 latency=0 timeout=500 status=0
+BluetoothGatt,onConnectionUpdated() - Device=CC:11:E1:27:24:1D interval=12 latency=0 timeout=400 status=0
+BluetoothManagerStateMachine,Received urinDxPatientSampleCharacteristic
+BluetoothManagerStateMachine,[B@92c0d03
+BluetoothManagerStateMachine,000051a23aff900100000000000000000000000000000000000000000000000000000000000000000000000000000000000000008c093e074b081404ef064f0b5a093e0748081004ef06390b55093e0747080c04f3061e0b53093e0747080b04f206340b52093e0746080a04f6063a0b51093e0746080a04fb06370b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+BluetoothGatt,onClientConnectionState() - status=19 clientIf=6 device=CC:11:E1:27:24:1D
+BluetoothGatt,close()
+BluetoothGatt,unregisterApp() - mClientIf=6
+BluetoothManagerStateMachine,disconnected 'UrinDx'
