@@ -1,0 +1,9 @@
+﻿Date,Hours,Notes
+8/1/2024,9,Replaced BluetoothManager2 module with Nordic equivalent NordicBLEManager module I wrote. Began working on the state machine translation to Nordic
+8/2/2024,9,Continued working on Nordic-BLE implementation
+8/5/2024,8,Nordic-BLE implementation
+8/6/2024,8,Nordic-BLE implementation + Presentation
+8/7/2024,8,Nordic-BLE implementation
+8/8/2024,8,Solved Nordic-BLE implementation
+8/9/2024,8,Started porting Nordic-BLE example code to Pete; Finalized projects; Published documentation on Urinator4000
+8/1 - 8/9,58,
